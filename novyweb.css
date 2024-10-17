@@ -4,7 +4,17 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #3a3a3a;
+    background-color: rgb(7,158,225);
+}
+
+
+.fade-out-header {
+    position: absolute;
+    top: 30;
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(to bottom, rgb(0,33,71), rgba(0, 0, 0, 0));
+    z-index: 10;
 }
 
 .background {
@@ -28,14 +38,14 @@ body, html {
     top: 180px;
     right: 60px;
     font-size: 40px;
-    color: #b6b8bb;
+    color: rgb(0, 0, 0);
     transform: rotate(12deg);
     font-family: 'Tw Cen MT Condensed Extra Bold', 'Fjalla One', sans-serif;
 }
 
 .social-icons {
     position: absolute;
-    top: 300px;
+    top: 450px;
     left: 20px;
     display: flex;
     flex-direction: column;
@@ -43,8 +53,8 @@ body, html {
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 /* MOBILY */
@@ -60,17 +70,17 @@ body, html {
 
     .logo {
         width: 300px;
-        top: 20px;
+        top: 120px;
         left: 50%;
         transform: translate(-50%, 0);
     }
 
     .slogan {
         font-size: 30px;
-        top: 280px;
+        top: 380px;
         left: 50%;
         transform: translate(-50%, 0) rotate(12deg);
-        color: #b6b8bb;
+        color: rgb(0, 0, 0);
         width: 300px;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -82,24 +92,34 @@ body, html {
     }
 
     .social-icons {
-        top: calc(50% + 100px);
+        top: calc(50% + 190px);
         left: 50%;
         transform: translate(-50%, 0);
+        flex-direction: row;
+    }
+
+    .social-icon {
+        width: 50px;
+        height: 50px;
     }
 }
 
 /* DESKTOP */
 @media (min-width: 1201px) {
     .logo {
-        width: 600px;
-        top: 20px;
-        left: 50px;
+        width: 700px;
+        top: 120px;
+        left: 70px;
     }
 
     .slogan {
-        font-size: 40px;
-        top: 180px;
+        font-size: 70px;
+        top: 280px;
         right: 60px;
         transform: rotate(12deg);
+    }
+
+    .social-icons {
+        flex-direction: column;
     }
 }
