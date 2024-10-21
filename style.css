@@ -1,0 +1,157 @@
+#menu{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100vw;               
+}
+#menu-items{
+    text-align: center;
+}
+
+.row{
+    margin: 0;
+}
+
+#user{
+    text-align: center;
+}
+
+div{
+    margin: 0;
+}
+
+div.main{
+    background-color: #002147 !important;
+    color: #fff !important;
+    width: 100vw !important;
+    height: auto !important;
+    padding: 4rem;
+}
+
+div.secondary{
+    background-color: #03aefe !important;
+    color: white !important;
+    width: 100vw !important;
+    height: auto !important; 
+    padding: 4rem;  
+}
+div.terciary{
+    background-color: rgb(46, 46, 46) !important;
+    color: white !important;
+    width: 100vw !important;
+    height: auto !important;
+    padding: 4rem;
+}
+div.transparent{
+    background-color: #3f3f3f7b !important;
+    color: white !important;
+    width: 80vw !important;
+    height: auto !important;
+    padding: 4rem;
+}
+
+.navbar{
+    background-color: #FFF !important;
+    color: #000 !important;
+
+}
+
+h2{
+    color:#FFF;
+    
+}
+h1.main && h2.main{
+    color: #000000;
+    margin-top: 42vh;
+    margin-left: 7vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+}
+
+body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+}
+
+body.login{
+    background-color: #002147;
+    color: white;
+}
+.image-container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 46vh 8vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landpage-pic{
+    background-image: url('img/background.webp');
+}
+.services-pic{
+    background-image: url('img/placeholder.webp');
+    height: 75vh !important;
+}
+.contact-pic{
+    background-image: url('img/placeholder.webp');
+    height: 60vh !important;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+}
+
+.footer{
+    background-color: #002147;
+    color: white;
+}
+
+.overlay-text {
+    position:-ms-page;
+    color: #fff; 
+    padding: 10px   20px;  
+    text-align: left;
+}
+table{
+    width: 90vw;
+    height: 10vh;
+    padding: 10vh, 20vh;
+    border-collapse: collapse;  
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 5rem;
+}
+
+.icon-large {
+    font-size: 100px;
+}
+.social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+.container-fluid-2{
+    padding: 4rem !important;
+}
+
+.red{
+    background-color: rgb(142, 0, 0);
+}
+p{
+    font-size: 1.5rem;
+}
