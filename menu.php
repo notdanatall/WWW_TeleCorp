@@ -12,6 +12,7 @@
                 <li><a class="dropdown-item" href="index.php">Hlavní menu</a></li>
                 <li><a class="dropdown-item" href="services.php">Služby</a></li>
                 <li><a class="dropdown-item" href="contact.php">Kontaktujte nás</a></li>
+                <li><a class="dropdown-item" href="team.php">Náš tým</a></li>
                 <li class="dropdown-divider"></li>
                 <?php
                         if(!empty($_SESSION["logged_user"])){
@@ -24,6 +25,7 @@
                         } else{
                                 echo('<li class="text-center">' . "Neznámý uživatel" . '</li>');
                                 echo('<li><a class="dropdown-item" href="login.php">Přihlásit se</a></li>');
+                                echo('<li><a class="dropdown-item" href="register.php">Registrovat se</a></li>');
                         }
                 
                 ?>
@@ -35,16 +37,6 @@
                         <img src="img/logofirmy.webp" alt="Telecorp" width="53" height="30" class="d-inline-block align-text-top">
                         <img src="img/logotext.webp" alt="Telecorp" width="139" height="30" class="d-inline-block align-text-top">
                 </a>
-        </div>
-        <!-- Dropdown for the theme toggle -->
-        <div class="btn-group">
-            <button type="button" class="btn btn-dark" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-moon-fill"></i>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="#">Light Theme</a></li>
-                <li><a class="dropdown-item" href="#">Dark Theme</a></li>
-            </ul>
         </div>
     </div>
 </nav>

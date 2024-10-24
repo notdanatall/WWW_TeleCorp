@@ -8,7 +8,7 @@ TODO:
 Do pátku:
 Nahradit placehodery grafikou
 Nějaký ten copywriting
-Upravit login a vytvořit okno na registraci 
+Upravit login a vytvořit okno na registraci - OK
 
 Dále:
 Napojení na mysql databázi

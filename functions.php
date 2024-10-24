@@ -11,6 +11,10 @@ class Page{
                 return "Kontakt";
             case "services.php":
                 return "Naše služby";
+            case "team.php":
+                return "Náš tým";
+            case "register.php":
+                return "Registrace";
             default:
                 return "Unknown";
             #All webpages
