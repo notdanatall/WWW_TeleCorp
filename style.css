@@ -35,6 +35,8 @@ div.secondary{
     width: 100vw !important;
     height: auto !important; 
     padding: 4rem;  
+    flex: 1;
+    margin-right: 20px;
 }
 div.terciary{
     background-color: rgb(46, 46, 46) !important;
@@ -154,4 +156,11 @@ td {
 }
 p{
     font-size: 1.5rem;
+}
+.secondary-container {
+    display: flex;
+}
+
+.map{
+    padding: 2rem;
 }
