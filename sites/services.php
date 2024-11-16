@@ -1,7 +1,7 @@
-<?php require "head.php"; ?>
+<?php require_once __DIR__ . "/../components/head.php"; ?>
 <body>
-    <?php require_once "menu.php"; 
-    require_once "social-media.php";
+    <?php require_once  __DIR__ . "/../components/menu.php"; 
+    require_once __DIR__ . "/../components/social-media.php";    
     ?>
     <div class="image-container services-pic">
             <h1 class="overlay-text"><b>Teleslogan here</b></h1>
@@ -39,5 +39,5 @@
             </tbody>	
         </table>
     </div>
-    <?php require_once "footer.php"; ?>
+    <?php require_once  __DIR__ . "/../components/footer.php"; ?>
 </body>

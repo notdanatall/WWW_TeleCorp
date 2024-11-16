@@ -9,10 +9,10 @@
                    onmouseout="this.style.color='black'"></i>
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="index.php">Hlavní menu</a></li>
-                <li><a class="dropdown-item" href="services.php">Služby</a></li>
-                <li><a class="dropdown-item" href="contact.php">Kontaktujte nás</a></li>
-                <li><a class="dropdown-item" href="team.php">Náš tým</a></li>
+                <li><a class="dropdown-item" href="/../index.php">Hlavní menu</a></li>
+                <li><a class="dropdown-item" href="/../sites/services.php">Služby</a></li>
+                <li><a class="dropdown-item" href="/../sites/contact.php">Kontaktujte nás</a></li>
+                <li><a class="dropdown-item" href="/../sites/team.php">Náš tým</a></li>
                 <li class="dropdown-divider"></li>
                 <?php
                         if(!empty($_SESSION["logged_user"])){
@@ -24,18 +24,18 @@
                                 echo('<li><a class="dropdown-item red" href="logout.php">Odhlásit se</a></li>');
                         } else{
                                 echo('<li class="text-center">' . "Neznámý uživatel" . '</li>');
-                                echo('<li><a class="dropdown-item" href="login.php">Přihlásit se</a></li>');
-                                echo('<li><a class="dropdown-item" href="register.php">Registrovat se</a></li>');
+                                echo('<li><a class="dropdown-item" href="/sites/login.php">Přihlásit se</a></li>');
+                                echo('<li><a class="dropdown-item" href="/sites/register.php">Registrovat se</a></li>');
                         }
                 
                 ?>
             </ul>
         </div>
         <!-- Logo-->
-        <div>
+        <div class="center-content">
                 <a class="navbar-brand" href="index.php">
-                        <img src="img/logofirmy.webp" alt="Telecorp" width="53" height="30" class="d-inline-block align-text-top">
-                        <img src="img/logotext.webp" alt="Telecorp" width="139" height="30" class="d-inline-block align-text-top">
+                        <img src="/assets/img/logofirmy.webp" alt="Telecorp" width="53" height="30" class="d-inline-block align-text-top">
+                        <img src="/assets/img/logotext.webp" alt="Telecorp" width="139" height="30" class="d-inline-block align-text-top">
                 </a>
         </div>
     </div>

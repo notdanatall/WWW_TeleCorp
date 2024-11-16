@@ -1,11 +1,11 @@
-<?php require "head.php"; ?>
+<?php require "components/head.php"; ?>
 <html>
     <body>
         <?php 
-            require_once "menu.php"; 
-            require_once "social-media.php";
+            require_once "components/menu.php"; 
+            require_once "components/social-media.php";
         ?>            
-        <div class="image-container landpage-pic  ">
+        <div class="image-container landpage-pic">
             <h1 class="overlay-text"><b>Teleslogan here</b></h1>
         </div>
         <div class="main">
@@ -22,7 +22,7 @@
             <table>
             <tr>
                 <td>
-                    <a href="services.php">
+                    <a href="sites/services.php">
                     <i class="bi bi-1-circle icon-large link-underline-opacity-0" 
                         onmouseover="this.className='bi bi-1-circle-fill icon-large link-underline-opacity-0'" 
                         onmouseout="this.className='bi bi-1-circle icon-large link-underline-opacity-0'"></i>   
@@ -30,7 +30,7 @@
                     </a>
                 </td>
                 <td>
-                    <a href="services.php">
+                    <a href="sites/services.php">
                     <i class="bi bi-2-circle icon-large link-underline-opacity-0" 
                         onmouseover="this.className='bi bi-2-circle-fill icon-large link-underline-opacity-0'" 
                         onmouseout="this.className='bi bi-2-circle icon-large link-underline-opacity-0'"></i>     
@@ -38,16 +38,16 @@
                     </a>
                 </td>
                 <td>
-                    <a href="services.php">
+                    <a href="sites/services.php">
                     <i class="bi bi-3-circle icon-large link-underline-opacity-0" 
                         onmouseover="this.className='bi bi-3-circle-fill icon-large link-underline-opacity-0'" 
                         onmouseout="this.className='bi bi-3-circle icon-large link-underline-opacity-0'"></i>     
                     <h2>Kurzy s certifikací</h2>
                     </a>
                 </td>
-            </tr>
+            </tr>   
         </table>
         </div>
-        <?php require_once "footer.php"; ?>
+        <?php require_once "components/footer.php"; ?>
     </body>
 </html>

@@ -1,4 +1,4 @@
-<?php include "head.php"; ?>
+<?php require_once __DIR__ . "/../components/head.php"; ?>
 <html>
 <body class="login">
     <div class="container transparent rounded-5 my-5 pd-5">

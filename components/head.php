@@ -1,6 +1,6 @@
 <?php session_start();
-    require_once "user.php";
-    require_once "functions.php";
+    require_once __DIR__ . '/../models/user.php';
+    require_once __DIR__ . '/../services/functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -14,6 +14,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href= "/assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
 </head>

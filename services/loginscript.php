@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require_once "user.php";
+    require_once "/../models/user.php";
 
     if(!empty($_POST["name"]) && !empty($_POST["surname"]) && !empty($_POST["email"])) { 
         

@@ -92,14 +92,14 @@ body.login{
 }
 
 .landpage-pic{
-    background-image: url('img/background.webp');
+    background-image: url('/assets/img/placeholder.webp');
 }
 .services-pic{
-    background-image: url('img/placeholder.webp');
+    background-image: url('/assets/img/placeholder.webp');
     height: 75vh !important;
 }
 .contact-pic{
-    background-image: url('img/placeholder.webp');
+    background-image: url('/assets/img/placeholder.webp');
     height: 60vh !important;
 }
 
@@ -163,4 +163,15 @@ p{
 
 .map{
     padding: 2rem;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+    text-align: center; 
+}
+th{
+    text-align: center;
 }
