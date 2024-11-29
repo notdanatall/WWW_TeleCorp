@@ -12,8 +12,7 @@
                 <li><a class="dropdown-item" href="/../index.php">Hlavní menu</a></li>
                 <li><a class="dropdown-item" href="/../sites/services.php">Služby</a></li>
                 <li><a class="dropdown-item" href="/../sites/contact.php">Kontaktujte nás</a></li>
-                <li><a class="dropdown-item" href="/../sites/team.php">Náš tým</a></li>                
-                ?>
+                <li><a class="dropdown-item" href="/../sites/team.php">Náš tým</a></li>
             </ul>
         </div>
         <!-- Logo-->
