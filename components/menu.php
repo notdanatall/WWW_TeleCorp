@@ -12,22 +12,7 @@
                 <li><a class="dropdown-item" href="/../index.php">Hlavní menu</a></li>
                 <li><a class="dropdown-item" href="/../sites/services.php">Služby</a></li>
                 <li><a class="dropdown-item" href="/../sites/contact.php">Kontaktujte nás</a></li>
-                <li><a class="dropdown-item" href="/../sites/team.php">Náš tým</a></li>
-                <li class="dropdown-divider"></li>
-                <?php
-                        if(!empty($_SESSION["logged_user"])){
-
-                                $user = unserialize($_SESSION["logged_user"]);
-
-                                echo('<li class="text-center">' . '<i class="bi bi-person"></i>' . ' ' . $user->first_name . ' ' . $user->last_name . '</li>');
-                                echo('<li> <a class="dropdown-item" href="orders.php">Objednávky</a></li>');
-                                echo('<li><a class="dropdown-item red" href="logout.php">Odhlásit se</a></li>');
-                        } else{
-                                echo('<li class="text-center">' . "Neznámý uživatel" . '</li>');
-                                echo('<li><a class="dropdown-item" href="/sites/login.php">Přihlásit se</a></li>');
-                                echo('<li><a class="dropdown-item" href="/sites/register.php">Registrovat se</a></li>');
-                        }
-                
+                <li><a class="dropdown-item" href="/../sites/team.php">Náš tým</a></li>                
                 ?>
             </ul>
         </div>
