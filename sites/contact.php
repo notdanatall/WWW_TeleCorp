@@ -3,7 +3,7 @@
     <?php require_once __DIR__ .'/../components/menu.php';
           require_once __DIR__ ."/../components/social-media.php"; ?>
     <div class="image-container contact-pic">
-            <h1 class="overlay-text"><b>Teleslogan here</b></h1>
+            <h1 class="overlay-text rounded"><b>Kontaktujte nás!</b></h1>
     </div>
     <div class="secondary-container">
         <div class="secondary">
@@ -37,12 +37,12 @@
     </div>
     <div class="terciary">
         <h2>Nebo nám můžete přímo napsat</h2>
-        <form action="send-email.php" method="POST">
+        <form action="/../services/send-email.php" method="POST">
             <input type="email" name="email" class="form-control" placeholder="Váš email" required> <br>
             <textarea name="message" class="form-control" maxlenght="500" rows="5" placeholder="Vaše zpráva" required></textarea> <br>
             <div class="g-recaptcha" data-sitekey="6Lel62gqAAAAANpZxZz-owO7a0RXTL8TBbcS0fHC" required></div> <br>
             <button type="submit" class="btn btn-primary">Odeslat <i class="bi bi-send-fill"></i></button>
         </form>
     </div>
-    <?php require_once __DIR__ . "/components/footer.php"; ?> 
+    <?php require_once __DIR__ . "/../components/footer.php"; ?> 
 </body>

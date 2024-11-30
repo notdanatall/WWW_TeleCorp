@@ -7,10 +7,9 @@
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Domů</a></li>
-      <li class="nav-item"><a href="services.php" class="nav-link px-2 text-muted">Nabídka služeb</a></li>
-      <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-muted">Kontaktujte nás</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">lorem</a></li>
+      <li class="nav-item"><a href="/../index.php" class="nav-link px-2 text-muted">Domů</a></li>
+      <li class="nav-item"><a href="/../sites/services.php" class="nav-link px-2 text-muted">Nabídka služeb</a></li>
+      <li class="nav-item"><a href="/../sites/contact.php" class="nav-link px-2 text-muted">Kontaktujte nás</a></li>
     </ul>
   </footer>
 </div>

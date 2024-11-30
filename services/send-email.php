@@ -8,7 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (intval($responseKeys["success"]) !== 1) {
 
-        echo 'Please complete the reCAPTCHA.';
         exit();
     }
 
